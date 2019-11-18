@@ -1,12 +1,12 @@
 import pytest
 
-from mypkg.fibonacci import fibonacci
+from mypkg.poww import poww 
 
-def test_fib_10():
-	assert(fibonacci(10) == 55)
+def test_1():
+	assert(poww(2,5) == 32)
 
-def test_fib_not_20():
-	assert(fibonacci(20) != 20)
+def test_2():
+	assert(pow(2,4) == 16)
 	
-def test_fib_5():
-	assert(fibonacci(5) == 5)
+def test_3():
+	assert(pow(3, 3) == 27)
