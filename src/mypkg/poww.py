@@ -1,5 +1,4 @@
 #!/usr/bin/python
 
-
-def foo(val, ex):
+def pow(val, ex):
 	return pow(val, ex);
